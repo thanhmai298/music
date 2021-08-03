@@ -53,6 +53,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD1F44E626B93296008F653A /* listSong */ = {
+			isa = PBXGroup;
+			children = (
+				ADFAE18226B28C54003227BC /* listMusicViewController.swift */,
+				ADFAE18426B29C13003227BC /* SongTableViewCell.swift */,
+				ADFAE18526B29C13003227BC /* SongTableViewCell.xib */,
+			);
+			path = listSong;
+			sourceTree = "<group>";
+		};
+		AD1F44E726B932E8008F653A /* typeMusic */ = {
+			isa = PBXGroup;
+			children = (
+				AD3B20FE26B3186E0049BA58 /* TypeMusicViewController.swift */,
+				AD3B210026B321D50049BA58 /* MyCollectionViewCell.swift */,
+				AD3B210126B321D50049BA58 /* MyCollectionViewCell.xib */,
+			);
+			path = typeMusic;
+			sourceTree = "<group>";
+		};
 		ADE3968A26B0F119009B1A3F = {
 			isa = PBXGroup;
 			children = (
@@ -76,17 +96,13 @@
 				ADE3969826B0F119009B1A3F /* SceneDelegate.swift */,
 				ADE3969A26B0F119009B1A3F /* ViewController.swift */,
 				AD8BCE8B26B251EF002EFB02 /* HelloViewController.swift */,
+				AD72A9AD26B7D4230047894D /* PlaySongViewController.swift */,
 				ADE3969C26B0F119009B1A3F /* Main.storyboard */,
 				ADE3969F26B0F11B009B1A3F /* Assets.xcassets */,
 				ADE396A126B0F11B009B1A3F /* LaunchScreen.storyboard */,
 				ADE396A426B0F11B009B1A3F /* Info.plist */,
-				ADFAE18226B28C54003227BC /* listMusicViewController.swift */,
-				ADFAE18426B29C13003227BC /* SongTableViewCell.swift */,
-				ADFAE18526B29C13003227BC /* SongTableViewCell.xib */,
-				AD3B20FE26B3186E0049BA58 /* TypeMusicViewController.swift */,
-				AD3B210026B321D50049BA58 /* MyCollectionViewCell.swift */,
-				AD3B210126B321D50049BA58 /* MyCollectionViewCell.xib */,
-				AD72A9AD26B7D4230047894D /* PlaySongViewController.swift */,
+				AD1F44E626B93296008F653A /* listSong */,
+				AD1F44E726B932E8008F653A /* typeMusic */,
 			);
 			path = Music;
 			sourceTree = "<group>";
@@ -325,7 +341,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = CC.Music;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -342,7 +358,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = CC.Music;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

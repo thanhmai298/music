@@ -13,10 +13,18 @@ class ViewController: UIViewController {
 
     
     @IBOutlet weak var nameTextField: UITextField!
-    
+    @IBOutlet weak var locationTextField: UITextField!
     var nameText = ""
     override func viewDidLoad() {
         super.viewDidLoad()
+        nameTextField.layer.borderWidth = 1
+        nameTextField.layer.borderColor = UIColor.white.cgColor
+        nameTextField.layer.cornerRadius = 5
+        
+        locationTextField.layer.borderWidth = 1
+        locationTextField.layer.borderColor = UIColor.white.cgColor
+        locationTextField.layer.cornerRadius = 5
+        
         // Do any additional setup after loading the view.
     }
 
