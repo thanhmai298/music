@@ -16,7 +16,7 @@ class HelloViewController: UIViewController {
     var nameHello = ""
     override func viewDidLoad() {
         super.viewDidLoad()
-//        nameLable.text = nameHello
+        nameLable.text = nameHello
         avaImage.layer.cornerRadius = avaImage.frame.size .width / 2
         avaImage.clipsToBounds = true
         // Do any additional setup after loading the view.

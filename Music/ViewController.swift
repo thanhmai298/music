@@ -20,14 +20,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-//    @IBAction func nextButton(_ sender: Any) {
-//        self.nameText = nameTextField.text!
-//        performSegue(withIdentifier: "name", sender: self)
-//}
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        var vc = segue.destination as! HelloViewController
-//        vc.nameHello = self.nameText
-//    }
+    @IBAction func nextButton(_ sender: Any) {
+        self.nameText = nameTextField.text!
+        performSegue(withIdentifier: "name", sender: self)
+}
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as! HelloViewController
+        vc.nameHello = self.nameText
+    }
  
 
 }
