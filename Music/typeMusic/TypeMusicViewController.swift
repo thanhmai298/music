@@ -13,9 +13,8 @@ class TypeMusicViewController: UIViewController {
     @IBOutlet var typeCollectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         let layout = UICollectionViewFlowLayout()
-        layout.itemSize = CGSize(width: 120, height: 120)
         typeCollectionView.collectionViewLayout = layout
         typeCollectionView.register(MyCollectionViewCell.nib(), forCellWithReuseIdentifier: MyCollectionViewCell.identifier)
         typeCollectionView.delegate = self
@@ -41,7 +40,15 @@ extension TypeMusicViewController: UICollectionViewDataSource{
 }
 extension TypeMusicViewController: UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 120, height: 120)
+        let screenWidth = UIScreen.main.bounds.width - 14
+        return CGSize(width: screenWidth/3, height: (screenWidth/3)+7)
+    }
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return 15
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        return 7
     }
 }
 
