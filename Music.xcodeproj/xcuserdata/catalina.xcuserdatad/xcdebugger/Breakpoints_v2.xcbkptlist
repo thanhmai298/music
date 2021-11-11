@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BB57F5EE-A98F-4372-9EDA-09DB2FF82AEF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE79E13E-3829-4E84-B9A9-4CD2E3223C5F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Music/SongTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "SongTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "AE79E13E-3829-4E84-B9A9-4CD2E3223C5F - 1cdcf276eadf6625"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Music.SongTableViewCell.timeLable.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Music"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/catalina/Desktop/Music/Music/SongTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "AE79E13E-3829-4E84-B9A9-4CD2E3223C5F - ae6196658b8c3d31"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Music.SongTableViewCell.timeLable.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Music"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/catalina/Desktop/Music/Music/SongTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "AE79E13E-3829-4E84-B9A9-4CD2E3223C5F - 650a83564f33fce6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Music.SongTableViewCell.timeLable.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Music"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/catalina/Desktop/Music/Music/SongTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  uuid = "AE79E13E-3829-4E84-B9A9-4CD2E3223C5F - 76544c49492c841"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Music.SongTableViewCell.timeLable.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Music"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/catalina/Desktop/Music/Music/SongTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "AE79E13E-3829-4E84-B9A9-4CD2E3223C5F - 7d89c69d288e488"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Music.SongTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Music.SongTableViewCell"
+                  moduleName = "Music"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/catalina/Desktop/Music/Music/SongTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "738">
+               </Location>
+               <Location
+                  uuid = "AE79E13E-3829-4E84-B9A9-4CD2E3223C5F - 24a6ccc78f4f03a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Music.SongTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Music.SongTableViewCell&gt;"
+                  moduleName = "Music"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/catalina/Desktop/Music/Music/SongTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "679">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "232BB668-4DB7-4878-A869-F610DDD66027"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Music/SongTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "SongTableViewCell"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
