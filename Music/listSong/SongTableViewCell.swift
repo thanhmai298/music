@@ -19,8 +19,8 @@ class SongTableViewCell: UITableViewCell {
     static func nib() -> UINib{
         return UINib(nibName: "SongTableViewCell", bundle: nil)
     }
-    public func configure(with number: String, image: UIImage, name: String, singer: String, time: String){
-        numberLabel.text = number
+    public func configure(with number: Int, image: UIImage, name: String, singer: String, time: String){
+        numberLabel.text = String(number)
         myImageView.image = image
         nameLabel.text = name
         singerLabel.text = singer

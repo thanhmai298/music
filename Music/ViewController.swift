@@ -30,10 +30,11 @@ class ViewController: UIViewController {
 
     @IBAction func nextButton(_ sender: Any) {
         self.nameText = nameTextField.text!
-        performSegue(withIdentifier: "name", sender: self)
+//        performSegue(withIdentifier: "name", sender: self)
 }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as! HelloViewController
+        vc.modalPresentationStyle = .fullScreen
         vc.nameHello = self.nameText
     }
  
