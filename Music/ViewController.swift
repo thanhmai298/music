@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var locationTextField: UITextField!
     var nameText = ""
+    var locationText = ""
     override func viewDidLoad() {
         super.viewDidLoad()
         nameTextField.layer.borderWidth = 1
@@ -30,6 +31,8 @@ class ViewController: UIViewController {
 
     @IBAction func nextButton(_ sender: Any) {
         self.nameText = nameTextField.text!
+        self.locationText = locationTextField.text!
+        Defaults.save(self.nameText, address: self.locationText)
 //        performSegue(withIdentifier: "name", sender: self)
 }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -39,6 +42,49 @@ class ViewController: UIViewController {
     }
  
 
+}
+struct Defaults {
+    
+    static let (nameKey, addressKey) = ("name", "address")
+    static let userSessionKey = "com.save.usersession"
+    private static let userDefault = UserDefaults.standard
+    
+    /**
+       Nó được sử dụng để lấy ra và gán giá trị người dùng vào UserDefaults
+     */
+    struct UserDetails {
+        let name: String
+        let address: String
+        
+        init(_ json: [String: String]) {
+            self.name = json[nameKey] ?? ""
+            self.address = json[addressKey] ?? ""
+        }
+    }
+    
+    /**
+     - Lưu chi tiết người dùng
+     - Inputs - name `String` & address `String`
+     */
+    static func save(_ name: String, address: String){
+        userDefault.set([nameKey: name, addressKey: address],
+                        forKey: userSessionKey)
+    }
+    
+    /**
+     - Tìm nạp các giá trị thông qua Model `UserDetails`
+     - Output - `UserDetails` model
+     */
+    static func getNameAndAddress()-> UserDetails {
+        return UserDetails((userDefault.value(forKey: userSessionKey) as? [String: String]) ?? [:])
+    }
+    
+    /**
+        - Xoá chi tiết người dùng trong UserDefault qua key "com.save.usersession"
+     */
+    static func clearUserData(){
+        userDefault.removeObject(forKey: userSessionKey)
+    }
 }
 //extension UITextField{
 //    @IBInspectable var placeHolderColor: UIColor? {

@@ -10,6 +10,7 @@
 		AD3B20FF26B3186E0049BA58 /* TypeMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3B20FE26B3186E0049BA58 /* TypeMusicViewController.swift */; };
 		AD3B210226B321D50049BA58 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3B210026B321D50049BA58 /* MyCollectionViewCell.swift */; };
 		AD3B210326B321D50049BA58 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD3B210126B321D50049BA58 /* MyCollectionViewCell.xib */; };
+		AD674523274B39E200941FE2 /* ListSongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD674522274B39E200941FE2 /* ListSongs.swift */; };
 		AD72A9AE26B7D4230047894D /* PlaySongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72A9AD26B7D4230047894D /* PlaySongViewController.swift */; };
 		AD8BCE8C26B251EF002EFB02 /* HelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8BCE8B26B251EF002EFB02 /* HelloViewController.swift */; };
 		ADA8962B26BA7EAA00F2189B /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8962A26BA7EAA00F2189B /* EditViewController.swift */; };
@@ -28,6 +29,7 @@
 		AD3B20FE26B3186E0049BA58 /* TypeMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeMusicViewController.swift; sourceTree = "<group>"; };
 		AD3B210026B321D50049BA58 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		AD3B210126B321D50049BA58 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		AD674522274B39E200941FE2 /* ListSongs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSongs.swift; sourceTree = "<group>"; };
 		AD72A9AD26B7D4230047894D /* PlaySongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySongViewController.swift; sourceTree = "<group>"; };
 		AD8BCE8B26B251EF002EFB02 /* HelloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloViewController.swift; sourceTree = "<group>"; };
 		ADA8962A26BA7EAA00F2189B /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				ADFAE18226B28C54003227BC /* listMusicViewController.swift */,
 				ADFAE18426B29C13003227BC /* SongTableViewCell.swift */,
+				AD674522274B39E200941FE2 /* ListSongs.swift */,
 				ADFAE18526B29C13003227BC /* SongTableViewCell.xib */,
 			);
 			path = listSong;
@@ -185,6 +188,7 @@
 			files = (
 				ADA8962B26BA7EAA00F2189B /* EditViewController.swift in Sources */,
 				ADFAE18626B29C13003227BC /* SongTableViewCell.swift in Sources */,
+				AD674523274B39E200941FE2 /* ListSongs.swift in Sources */,
 				AD72A9AE26B7D4230047894D /* PlaySongViewController.swift in Sources */,
 				ADE3969B26B0F119009B1A3F /* ViewController.swift in Sources */,
 				AD3B210226B321D50049BA58 /* MyCollectionViewCell.swift in Sources */,
